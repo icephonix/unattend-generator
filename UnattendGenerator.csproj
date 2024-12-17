@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
 	<CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
     <OutputType>Library</OutputType>
     <RootNamespace>Schneegans.Unattend</RootNamespace>
@@ -27,7 +27,6 @@
     <None Remove="resource\ShowAllTrayIcons.ps1" />
     <None Remove="resource\ShowAllTrayIcons.vbs" />
     <None Remove="resource\ShowAllTrayIcons.xml" />
-    <None Remove="resource\TaskbarIcons.ps1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -50,7 +49,6 @@
     <EmbeddedResource Include="resource\ClassicContextMenu.ps1" />
     <EmbeddedResource Include="resource\MoveActiveHours.vbs" />
     <EmbeddedResource Include="resource\SetWallpaper.ps1" />
-    <EmbeddedResource Include="resource\TaskbarIcons.ps1" />
     <EmbeddedResource Include="resource\MakeEdgeUninstallable.ps1" />
     <EmbeddedResource Include="resource\SetStartPins.ps1" />
     <EmbeddedResource Include="resource\ShowAllTrayIcons.vbs" />
